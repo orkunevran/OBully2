@@ -1,0 +1,66 @@
+{
+  "GeneralSettings": {
+    "ConfigSectionOnLoad": 2,
+    "AutoSetRecommendedBots": true,
+    "WarnConfigNotSaved": true,
+    "DefaultAuthor": "Anonymous",
+    "EnableJobLogging": false,
+    "LogBufferSize": 30,
+    "IgnoreWordlistNameOnHitsDedupe": false,
+    "ProxyCheckTargets": [
+      {
+        "Url": "https://google.com",
+        "SuccessKey": "title>Google"
+      },
+      {
+        "Url": "http://null.blautuyu.autos:2086/c",
+        "SuccessKey": "title>4ondokuz"
+      }
+    ],
+    "DefaultJobDisplayMode": 0,
+    "JobUpdateInterval": 1000,
+    "JobManagerUpdateInterval": 1000,
+    "GroupCapturesInDebugger": false,
+    "Culture": "en",
+    "CustomSnippets": []
+  },
+  "RemoteSettings": {
+    "ConfigsEndpoints": []
+  },
+  "SecuritySettings": {
+    "AllowSystemWideFileAccess": false,
+    "RequireAdminLogin": true,
+    "AdminUsername": "admin",
+    "AdminPasswordHash": "$2b$10$E67KiZztx6tu6A2EXn275ej/lQu3owC4qAzYZolaL5z4nPG.Gx.sa",
+    "JwtKey": "4YvqYA3/04Yi1fjXgZhaz1Fl9ddflouIDCq7rFm6heQ4G3XpNVwsh/ksI/zZnRHdhPck9PXjLoWmgSzWrLlM7Q==",
+    "AdminSessionLifetimeHours": 24,
+    "GuestSessionLifetimeHours": 24,
+    "HttpsRedirect": false
+  },
+  "CustomizationSettings": {
+    "Theme": "Default",
+    "MonacoTheme": "vs-dark",
+    "WordWrap": false,
+    "BackgroundMain": "#222",
+    "BackgroundInput": "#282828",
+    "BackgroundSecondary": "#111",
+    "ForegroundMain": "#DCDCDC",
+    "ForegroundInput": "#DCDCDC",
+    "ForegroundGood": "#ADFF2F",
+    "ForegroundBad": "#FF6347",
+    "ForegroundCustom": "#FF8C00",
+    "ForegroundRetry": "#FFFF00",
+    "ForegroundBanned": "#DDA0DD",
+    "ForegroundToCheck": "#7FFFD4",
+    "ForegroundMenuSelected": "#1E90FF",
+    "SuccessButton": "#2f5738",
+    "PrimaryButton": "#3b3a63",
+    "WarningButton": "#7a552a",
+    "DangerButton": "#693838",
+    "ForegroundButton": "#DCDCDC",
+    "BackgroundButton": "#282828",
+    "BackgroundImagePath": "",
+    "BackgroundOpacity": 100.0,
+    "PlaySoundOnHit": false
+  }
+}
